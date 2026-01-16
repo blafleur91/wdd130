@@ -9,18 +9,43 @@ nav a {
     padding: 20px;
 }
 
+main {
+    width: 600px;
+}
+
 h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: 2px blue;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+aside {
+    width: 25rem;
+    margin: 1rem;
+    border: 2px solid black;
+    padding: 2px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 3px dotted grey;
+    text-align: center;
 }
