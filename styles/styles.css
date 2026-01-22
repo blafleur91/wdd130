@@ -1,5 +1,10 @@
+:root {
+    --primary-color: rgb(0, 0, 139);
+    --margin-standard: 1rem;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -14,7 +19,7 @@ main {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 main img {
@@ -31,7 +36,7 @@ p {
 
 aside {
     width: 25rem;
-    margin: 1rem;
+    margin: var(--margin-standard);
     border: 2px solid black;
     padding: 2px;
     background-color: orangered;
@@ -45,7 +50,7 @@ aside img {
 }
 
 footer {
-    margin-top: 1rem;
+    margin-top: var(--margin-standard);
     border-top: 3px dotted grey;
     text-align: center;
 }
