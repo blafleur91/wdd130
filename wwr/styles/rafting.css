@@ -88,3 +88,7 @@ article {
 footer nav img {
     width: 25px;
 }
+
+footer {
+    border-top: 3 px dotted gray;
+}
