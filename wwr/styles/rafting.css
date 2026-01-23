@@ -53,7 +53,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 0.2rem;
     width: 100%;
@@ -68,7 +68,7 @@ h2 {
     width: 100%;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 3rem;
     width: 95%;
@@ -90,5 +90,5 @@ footer nav img {
 }
 
 footer {
-    border-top: 3 px dotted gray;
+    border-top: 3px dotted gray;
 }
