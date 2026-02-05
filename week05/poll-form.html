@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form Practice</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form>
+            <div class="form-item column2">
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" name="useremail" id="useremail" required>
+            </div>
+            <div class="form-item column1">
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="Edge">Edge</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Firefox">Firefox</option>
+                </select>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">Do you have a hosuehold pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+            </div>
+            <div class="form-item">
+                <label for="feedback">List the places you have lived?</label>
+                <textarea name="feedback" id="feedback" rows="4"
+                  placeholder="Clearfield Utah, Richmond Virginia"></textarea>
+            </div>
+            <div class="form-item">
+                <button type="submit">Submit Poll</button>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
