@@ -110,6 +110,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .map-form {
     display: flex;
     gap: 0.5rem;
