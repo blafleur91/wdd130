@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #fff;
+    --primary-color: #f3f3f3;
     --secondary-color: green;
     --accent1-color: rgb(21, 171, 171);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -34,6 +34,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    margin: 0 auto;
 }
 
 nav,
@@ -126,6 +127,7 @@ h3 {
     display: grid;
     align-items: center;
     width: 400px;
+    padding: 1rem;
 }
 
 .column1 {
@@ -170,8 +172,11 @@ button {
 }
 
 .contact {
-    width: 150px;
+    max-width: 900px;
     margin: 0 auto;
+    text-align: center;
+    background-color: #024a0e;
+    color: #f3f3f3;
 }
 
 .contact p {
@@ -181,16 +186,12 @@ button {
 
 .contact a {
     text-decoration: none;
+    color: rgb(57, 239, 230);
 }
 
 .map {
     display: flex;
     justify-content: left;
-}
-
-.form {
-    display: flex;
-    justify-content: right;
 }
 
 .adventure {
@@ -207,8 +208,8 @@ button {
 }
 
 .adventure2 img {
-    max-width: 200;
-    max-height: auto;
+    max-width: 200px;
+    height: auto;
 }
 
 .adventure img {
