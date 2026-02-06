@@ -109,10 +109,106 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.map-form {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    margin: 2rem;
+}
+
+.form {
+    display: grid;
+    align-items: center;
+    width: 400px;
+}
+
+.column1 {
+    display: grid;
+    padding: .5rem 0;
+    grid-template-columns: 0.75fr 2fr;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+textarea {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.radio-title {
+    width: 100px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    font-size: 1.25rem;
+    width: 100%;
+    background-color: #024a0e;
+    color: #f3f3f3;
+    border-radius: 5px;
+}
+
+.contact {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.contact p {
+    padding: .25rem;
+    margin: 0;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.map {
+    display: flex;
+    justify-content: left;
+}
+
+.form {
+    display: flex;
+    justify-content: right;
+}
+
 .adventure {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.adventure2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.adventure2 img {
+    max-width: 200;
+    max-height: auto;
 }
 
 .adventure img {

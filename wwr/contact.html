@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="description" content="This page gives you the information you need to contact us.">
+    <meta name="author" content="Braxton LaFleur">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr-logo.jpeg" alt="Raft with two oars">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Utah Water Rafting</h3>
+        <div class="contact">
+            <p>123 Main Street</p>
+            <p>Clearfield Utah</p>
+            <p>+1 999 999 9999</p>
+            <p><a href="email">info@UtahWaterRafting.com</a>
+            </p>
+        </div>
+        <section class="map-form">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3679.52742252868!2d-112.02465250865663!3d41.11228967965322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1770396882753!5m2!1sen!2sus"
+                  width="400" height="300" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="form">
+                <form action="#">
+                    <div class="form-item column1">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="email">Email: </label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="form-row column1">
+                        <p class="radio-title">Message Purpose</p>
+
+                        <div class="radio-group">
+                            <label for="general-inquiry"><input type="radio" name="general-inquiry"
+                                  id="general-inquiry"> General Inquiry</label>
+
+                            <label for="reserve-question"><input type="radio"
+                                  name="reserve-question" id="reserve-question"> Reservation
+                                Question</label>
+
+                            <label for="website-suggestion"><input type="radio"
+                                  name="website-suggestion" id="website-suggestion"> Website
+                                Suggestion</label>
+
+                        </div>
+
+                    </div>
+                    <div class="form-item column2">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="form-item">
+                        <input type="checkbox" name="subscribe" id="subscribe" checked>
+                        <label for="subscribe">Please Subscribe me to the monthly Newsletter</label>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit">Send Your Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h3>We Are Here To Serve You</h3>
+            <div class="adventure2">
+                <figure>
+                    <img src="images/employee-1.jpg" alt="Jesse Jones - Raft Guide">
+                    <figcaption>Jesse Jones - Raft Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-2.jpg" alt="John Doe - Trip Leader">
+                    <figcaption>John Doe - Trip Leader</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-3.jpg" alt="Jane Doe - Safety Kayaker">
+                    <figcaption>Jane Doe - Safety Kayaker</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© | 2026 | Utah Water Rafting | Braxton LaFleur</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.jpg" alt="Facebook Logo">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="images/linkedin.jpg" alt="Linkedin Logo">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.jpg" alt="Instagram Logo">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
