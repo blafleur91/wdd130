@@ -1,0 +1,73 @@
+/* The below universal selector is how the teacher does it */
+/* He does it that way because it applies to everything, no matter what */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+    padding: 1.25em;
+}
+
+fieldset {
+    border: 1px #000;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+input,
+select,
+textarea {
+    font-size: 1.25em;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+/* this gives a border to the items when selected to be used */
+/* you can also use background colors. this is useful to show where you are */
+
+/* if want to learn more about this, google mdn with a tag name, 
+like focus for example. click on mozzila developer. then click on selectors in css */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid #6f0303;
+}
+
+.code {
+    background-color: #03020b;
+    color: #f3f3f3;
+    font-family: monospace;
+    padding: 10px 5px;
+    border-radius: 5px;
+    /* the below command makes the spacing around it fit to how much space the words take up */
+    width: fit-content;
+    /* The below command centers the wording */
+    margin: 0 auto;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
+}
+
+button {
+    /* this changes the text size, which can make the button bigger */
+    font-size: 1.25em;
+    /* this makes the button bigger */
+    padding: 10px 20px;
+    background-color: #024a0e;
+    color: #f3f3f3;
+    border: none;
+    /* border radius circles off the edges */
+    border-radius: 5px;
+    /* cursor changes what the cursor looks like hovering over it */
+    cursor: pointer;
+}

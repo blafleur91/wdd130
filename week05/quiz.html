@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form Example</title>
+    <meta name="description" content="A simple quiz form example for week 05">
+    <meta name="author" content="Braxton LaFleur">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>Quiz Form Example</h1>
+        <form action="#">
+            <fieldset>
+                <!-- You can put a legend (thing like fieldset and label and stuff) here and it will add a name to the box -->
+                <!-- That way you can subdivide huge fieldsets (things like quizzes and stuff) into smaller categories -->
+
+                <!-- To select multiple things in multiple places, hold down just the alt key -->
+
+                <!-- below I added span by selecting the things, going to view in the top left, hitting command palette -->
+                <!-- typing wrap, pressing enter, then typing span.number. that wrapped it in the span tag with a class of number -->
+                <label for="q1"><span class="number">1.</span> What does the acronym CSS stand
+                    <!-- If you want additional spaces used between things, you have to use &nbsp; otherwise html will cull unnecessary spaces -->
+                    for?</label>
+                <input type="text" name="q1" id="q1" required>
+
+                <label for="q2"><span class="number">2.</span> How are id and class attributes
+                    selected in CSS?</label>
+                <!-- to make the textarea have more lines, you need to use the rows="" command with the number wanted in the "" -->
+                <textarea name="q2" id="q2" rows="5"></textarea>
+
+                <label for="q3"><span class="number">3.</span> Which of the following is a valid CSS
+                    comment?</label>
+                <select name="q3" id="q3">
+                    <option value="0">Choose One ...</option>
+                    <option value="1">/* This is a comment */</option>
+                    <option value="2">// This is a comment</option>
+                    <option value="3"># This is a comment</option>
+                    <option value="4">&lt;-- This is a comment --&gt;</option>
+                </select>
+
+                <label for="q4"><span class="number">4.</span> What is the bottom margin given this
+                    declaration?</label>
+                <p class="code">margin: 10px 5px 15px:</p>
+                <input type="text" name="q4" id="q4" required>
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>
